@@ -1,0 +1,1 @@
+export async function POST(req){return Response.json({body:await req.json(),cookieBytes:(req.headers.get('cookie')||'').length})}

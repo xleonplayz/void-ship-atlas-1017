@@ -1,0 +1,1 @@
+export default function Page(){return <><h1>Chapter 19</h1><p>Independent static route 19.</p><a href="/">Library</a></>}

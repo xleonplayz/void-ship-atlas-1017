@@ -1,0 +1,1 @@
+export async function GET(){return Response.json({payload:'A'.repeat(131072)})}

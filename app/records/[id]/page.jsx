@@ -1,0 +1,1 @@
+export const dynamic='force-dynamic';export default function Page({params,searchParams}){return <><h1>Record {params.id}</h1><p>Query: {searchParams.q||'none'}</p><p>{new Date().toISOString()}</p></>}
